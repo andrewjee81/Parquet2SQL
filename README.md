@@ -23,7 +23,7 @@ project_folder/
 │── source/             # Parquet files should be placed here
 │── sql_scripts/        # SQL files will be generated here
 │── banner.py           # Contains CLI art for display
-│── main.py           # Main script
+│── main.py             # Main script
 │── README.md           # Documentation
 ```
 
