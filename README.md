@@ -1,7 +1,5 @@
-# Parquet2SQL
+# Parquet2SQL - Parquet to SQL Table Script
  
-# Parquet to SQL Table Script
-
 This script reads Parquet files from a `source` directory, extracts the schema, and generates corresponding `CREATE TABLE` SQL statements. The generated SQL files are saved in the `sql_scripts` folder.
 
 ## Features
