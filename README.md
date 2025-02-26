@@ -23,7 +23,7 @@ project_folder/
 │── source/             # Parquet files should be placed here
 │── sql_scripts/        # SQL files will be generated here
 │── banner.py           # Contains CLI art for display
-│── script.py           # Main script
+│── main.py           # Main script
 │── README.md           # Documentation
 ```
 
@@ -31,7 +31,7 @@ project_folder/
 1. Place your Parquet files inside the `source` directory.
 2. Run the script:
    ```sh
-   python script.py
+   python main.py
    ```
 3. The script will process each file, generate SQL scripts, and save them in the `sql_scripts` folder.
 4. If the SQL file is successfully written, you will see a confirmation message.
